@@ -1,0 +1,35 @@
+html {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(10, 112, 6);
+}
+
+button {
+  background-color: rgb(18, 71, 20); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#grid {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.row {
+  flex: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  flex: auto;
+}
